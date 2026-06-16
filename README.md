@@ -32,7 +32,7 @@
 1. Cost of building network is more.
 2. No security of data.
 
-#### **2. Object-oriented DBMS :-*
+#### **2. Object-oriented DBMS :-**
 
 * The data is stored in the form of object.
 
