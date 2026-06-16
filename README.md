@@ -2,11 +2,11 @@
 
 ## * **Data :-** 
 
-#### * It is a rawfact which is an attribute of an object or any entity.
+#### * It is a rawfact which describes attribute of an object or entity.
 
-#### * **Attribute :-** It is a properties of an object
+#### * **Attribute :-** It is a properties of an object.
 
-#### * **Entity :-** Anything which is physically present is called as entity.
+#### * **Entity :-** Anything which is physically present is called as object or  entity.
 
 ## * **Database :-**
 
