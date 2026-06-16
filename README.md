@@ -2,7 +2,7 @@
 
 ## * **Data :-** 
 
-#### * It is a rawfact which describes attribute of an object or entity.
+* It is a rawfact which describes attribute of an object or entity.
 
 #### * **Attribute :-** It is a properties of an object.
 
