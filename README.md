@@ -16,7 +16,7 @@
 
 * DBMS - It is a software used to maintain and manage the database.
 
-* **Types of DBMS :-**
+* ***Types of DBMS :-***
 
 1. Network DBMS
 2. Object oriented DBMS
@@ -25,17 +25,17 @@
 
 #### * **1. Network DBMS :-**
 
-#### * The data is stored in the form of network.
+* The data is stored in the form of network.
 
-#### * ***Drawback :***
+* ***Drawback :***
 
 1. Cost of building network is more.
 2. No security of data.
 
 #### * **2. Object-oriented DBMS :-*
 
-#### * The data is stored in the form of object.
+* The data is stored in the form of object.
 
-#### * ***Drawback :***
+* ***Drawback :***
 
 1. It is very difficult to build connections between multiple objects.
