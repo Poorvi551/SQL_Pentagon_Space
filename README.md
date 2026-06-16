@@ -4,19 +4,19 @@
 
 * It is a rawfact which describes attribute of an object or entity.
 
-#### * **Attribute :-** It is a properties of an object.
+* **Attribute :-** It is a properties of an object.
 
-#### * **Entity :-** Anything which is physically present is called as object or  entity.
+* **Entity :-** Anything which is physically present is called as object or  entity.
 
 ## * **Database :-**
 
-#### * Database - It is used to store the data in a systematic and organized manner.
+* Database - It is used to store the data in a systematic and organized manner.
 
-# * **DBMS :-**
+## * **DBMS :-**
 
-#### * DBMS - It is a software used to maintain and manage the database.
+* DBMS - It is a software used to maintain and manage the database.
 
-#### * **Types of DBMS :-**
+* **Types of DBMS :-**
 
 1. Network DBMS
 2. Object oriented DBMS
