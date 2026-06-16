@@ -4,7 +4,7 @@
 
 #### * It is a rawfact which is an attribute of an object or any entity.
 
-#### * **Attribute :-** It is 
+#### * **Attribute :-** It is a properties of an object
 
 #### * **Entity :-** Anything which is physically present is called as entity.
 
@@ -23,3 +23,19 @@
 3. Hierarchical DBMS
 4. RDBMS
 
+#### * **1. Network DBMS :-**
+
+#### * The data is stored in the form of network.
+
+#### * ***Drawback :***
+
+1. Cost of building network is more.
+2. No security of data.
+
+#### * **2. Object-oriented DBMS :-*
+
+#### * The data is stored in the form of object.
+
+#### * ***Drawback :***
+
+1. It is very difficult to build connections between multiple objects.
