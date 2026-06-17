@@ -15,6 +15,13 @@
 ## * **DBMS :-**
 
 * DBMS - It is a software used to maintain and manage the database.
+* Data is stored in the file format.
+* To communicate with DBMS we use Query Language.
+
+### * **Features of DBMS :-**
+
+ 1. Security(Protection)
+ 2. Authorization/Validation
 
 * ***Types of DBMS :-***
 
@@ -38,4 +45,40 @@
 
 * ***Drawback :***
 
-1. It is very difficult to build connections between multiple objects.
+1. It is very difficult to build connections between multiple objects. (In the era of 2010)
+
+#### **3. Hierarchical DBMS :-**
+
+* The Data is stored in the form of tree - like structure.
+
+* ***Drawbacks :-***
+
+  1. It consumes more time to retrieve a single value data.
+
+#### 4. ***RDBMS :-***
+
+* Here the data is stored in the form of table(rows and columns).
+* RDBMS - Relational Database Mangaement System.
+* Whenever the DBMS follows either *relational model* or *EF. Codd Rules* than it is considered as RDBMS.
+* To communicate with RDBMS we use SQL (Structured Query Language).
+* *EF. Codd is an Employee of IBM.*
+* *SQL was first provided by IBM.*
+
+* Difference between DBMS and RDBMS.
+
+<table>
+  <tr>
+    <td><b>DBMS</b></td>
+    <td><b>RDBMS</b></td>
+  </tr>
+  <tr>
+    <td>Data is stored in the form of file format.</td>
+    <td>Data is stored in the form of table.</td>
+  </tr>
+  <tr>
+    <td>DBMS is communicated using Query Language.</td>
+    <td>RDBMS is communicated using Structured Query Language.</td>
+  </tr>
+</table>
+
+#### * **EF. Codd Rules :-**
