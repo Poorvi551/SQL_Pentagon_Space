@@ -32,7 +32,7 @@
 
 #### **1. Network DBMS :-**
 
-* The data is stored in the form of network.
+* The data is stored in the form of *network*.
 
 * ***Drawback :***
 
@@ -41,7 +41,7 @@
 
 #### **2. Object-oriented DBMS :-**
 
-* The data is stored in the form of object.
+* The data is stored in the form of *object*.
 
 * ***Drawback :***
 
@@ -49,7 +49,7 @@
 
 #### **3. Hierarchical DBMS :-**
 
-* The Data is stored in the form of tree - like structure.
+* The Data is stored in the form of *tree - like structure*.
 
 * ***Drawbacks :-***
 
@@ -57,7 +57,7 @@
 
 #### 4. ***RDBMS :-***
 
-* Here the data is stored in the form of table(rows and columns).
+* Here the data is stored in the form of *table(rows and columns)*.
 * RDBMS - Relational Database Mangaement System.
 * Whenever the DBMS follows either *relational model* or *EF. Codd Rules* than it is considered as RDBMS.
 * To communicate with RDBMS we use SQL (Structured Query Language).
@@ -82,3 +82,8 @@
 </table>
 
 #### * **EF. Codd Rules :-**
+
+1. Data entered into a cell must be a single value data.
+2. We can insert the data into multiple tables also we can built connections between the tables using key/attribute.
+3. We use datatype and constraints to validate the data.
+4. For a table datatype is mandatory but constraints are optional.
