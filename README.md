@@ -87,3 +87,95 @@
 2. We can insert the data into multiple tables also we can built connections between the tables using key/attribute.
 3. We use datatype and constraints to validate the data.
 4. For a table datatype is mandatory but constraints are optional.
+
+#### **Relational Model :-** 
+
+* It is invented by EF(Edgar Frank) Codd in 1970.
+* It is used to store data and metadata.
+
+#### * *Metadata :-*
+
+* Metadata - It is the data about the data.
+
+## **Datatype :-**
+
+* It is used to specify the type of data which we are storing inside the memory location.
+* They are of 3 types :
+   1. Character Format Datatype.
+   2. Number Format Datatype.
+   3. Date Format Datatype.
+      
+#### **1. Character Format Datatype :-**
+
+* It is used to store character data values.
+* They are of 4 types:
+    1. char
+    2. varchar
+    3. text
+    4. binary large object
+ 
+  *1. char :-*
+  
+  * It is used to store character data values.
+  * Here we can store:
+      * uppercase
+      * lowercase
+      * special characters
+      * numbers
+  * Declaration inside Quotes is mandatory.
+  * We can store upto 255 characters.
+  * We can't send back unused memory.Hence it is also called fixed length memory.
+    
+  *Syntax:-*
+
+      char
+  
+  * *Drawback :-*
+ 
+  * Wastage of memory.
+
+  *2.varchar :-*
+
+  * It is used to store character data values.
+  * Here we can store:
+      * uppercase
+      * lowercase
+      * special characters
+      * numbers
+  * Declaration inside Quotes is mandatory.
+  * We can store upto 65535 characters.
+  * We can send back unused memory.
+  * Hence it is also called variable length memory.
+    
+  *Syntax:-*
+
+      varchar
+  
+  * *Drawback :-*
+ 
+  * No Wastage of memory.
+ 
+  *3. text:-*
+
+  * It is used to store large character data values.
+  * Here we can store:
+      * uppercase
+      * lowercase
+      * special characters
+      * numbers
+  * Declaration inside Quotes is mandatory.
+  * We can store upto 64kB characters.
+  * They are of 2 types:
+       *1. mediumtext*
+       *2. longtext*
+
+       1. *mediumtext :-* It is used to store character values.
+          *Syntax:-*
+
+              mediumtext
+          
+       3. *longtext.py :-* It is used to store character values.
+ 
+                                                                                                                                                                                                                                                             
+       5. 
+ 
