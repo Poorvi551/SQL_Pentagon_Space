@@ -305,7 +305,8 @@
 
    * It is used to store date along with time basd on the timezone.
    * It follows UTC (Universal Coordinated Time).
-    * *Syntax:-*
+
+   * *Syntax:-*
   
    * DateTime SQL format -> "YYYY-MM-DD HH:MI:SS"
 
