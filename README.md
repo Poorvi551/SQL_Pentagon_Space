@@ -169,13 +169,41 @@
        *1. mediumtext*
        *2. longtext*
 
-       1. *mediumtext :-* It is used to store character values.
+       1. *mediumtext :-* It is used to store character values. Stores upto 16mB.
+          
           *Syntax:-*
 
               mediumtext
           
-       3. *longtext.py :-* It is used to store character values.
- 
-                                                                                                                                                                                                                                                             
-       5. 
+       2. *longtext.py :-* It is used to store character values.Stores upto 4GB
+
+          *Syntax:-*
+
+              longtext
+
+    *4. Binary large object :-*
+
+    * It is used to images,videos, audios, pdf's etc..
+    * We can store upto 64kB.
+      
+    * *Syntax:-*
+   
+          blob
+      
+    * They are of 2 types:
+        *1. mediumblob*
+        *2. longblob*
+      
+     1. *mediumblob :-* It is used to store character values. Stores upto 16mB.
+          
+          *Syntax:-*
+
+              mediumblob
+          
+       2. *longtext.py :-* It is used to store character values.Stores upto 4GB
+
+          *Syntax:-*
+
+              longblob
+          
  
