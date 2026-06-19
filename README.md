@@ -223,7 +223,7 @@
            *1. int:-*
         
         * It is used to store number value datatype.
-        * e can store upto 16mB.
+        * We can store upto 16mB.
            
         * *Syntax:-*
 
