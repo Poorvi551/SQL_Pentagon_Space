@@ -128,7 +128,7 @@
     
   *Syntax:-*
 
-      char
+      char(size)
   
   * *Drawback :-*
  
@@ -149,7 +149,7 @@
     
   *Syntax:-*
 
-      varchar
+      varchar(size)
   
   * *Drawback :-*
  
@@ -205,5 +205,169 @@
           *Syntax:-*
 
               longblob
+          
+ 2. Number Format Datatype :-
+
+    * It is used to store number values datatype.
+    * They are of 2 types:
+        *1. Integer*
+        *2. Decimal*
+
+      *1. Integer:-*
+
+      * It is used to store number value datatype.
+      * They are of 2 types:
+           *1. int*
+           *2.bigint*
+        
+           *1. int:-*
+        
+        * It is used to store number value datatype.
+        * e can store upto 16mB.
+           
+        * *Syntax:-*
+
+              int
+
+        *2.bigint:-*
+
+        * It is used to store number value datatype.
+        * e can store upto 4GB.
+          
+        * *Syntax:-*
+
+              int
+
+     *2. Decimal:-*
+
+    * It is used to store numbers.
+    * *Syntax:-*
+
+              decimal(precision,scale)
+      
+    * precision - total number of digits.
+    * scale - number of digits after decimal
+    * Here, in precision i 
+      
+    * Ex:-
+
+      case 1 :
+   
+        decimal(5)
+      -> +- 99999
+
+      case 2: p>s
+   
+         decimal(6,3)
+      -> +- 999.999
+      
+      case 3: p<=s
+
+         decimal(2,5)
+      -> +-.ooo99
+      
+    ***Formula(used in case 3 only):-***
+
+      zeroes=precision-scale
+
+3. Date Format datatype :-
+
+   * It is used to store the date values.
+   * They are of 4 types:
+         *1. date*
+         *2. time*
+         *3. datetime*
+         *4. timestamp*
+     
+   *1. date:-*
+
+   * It is used to store the date values.
+   
+   * *Syntax:-*
+  
+   * Date SQL format -> "YYYY-MM-DD"
+  
+   *2. time:-*
+   
+   * It is used to store the time values.
+   * *Syntax:-*
+  
+   * Time SQL format -> "HH:MI:SS"
+  
+   *3. Datetime:-*
+
+   * It is used to store date along with time.
+   * *Syntax:-*
+  
+   * DateTime SQL format -> "YYYY-MM-DD HH:MI:SS"
+  
+   *4. Timestamp:-*
+
+   * It is used to store date along with time basd on the timezone.
+   * It follows UTC (Universal Coordinated Time).
+    * *Syntax:-*
+  
+   * DateTime SQL format -> "YYYY-MM-DD HH:MI:SS"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                            
+        
+        
           
  
