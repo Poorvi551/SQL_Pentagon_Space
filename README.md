@@ -310,7 +310,47 @@
   
    * DateTime SQL format -> "YYYY-MM-DD HH:MI:SS"
 
+## Constraints 
 
+* It is a rule or condition given to a column.
+
+### * Types of constraints :
+
+1. UNIQUE constraints.
+2. NOT NULL constraints.
+3. CHECK constraints.
+4. PRIMARY KEY constraints.
+5. FOREIGN KEY constraints.
+6. DEFAULT constraints.
+7. AUTO INCREMENT constraints.
+8. ENUM
+
+### 1. UNIQUE cnstraints :
+
+* It is used to avoid duplicate values which are entered into a column.
+
+### 2. NOT NULL Constraint :
+
+* It is used to avoid an empty cell i.e the column must be filled with values.
+
+* ***NOTE:- In RDBMS two NULL's are not same.***
+
+### 3. CHECK Constraint :
+
+* It is used to give additional condition or user defined condition for a column.
+* Syntax :
+
+     CHECK(CONDITION)
+
+  * Ex :
+         CHECK(LENGTH(CONTACT)=10)
+
+ ### 4. PRIMARY KEY Constraint :
+
+ * It is used to uniquely identify records from the table.
+ * *Characteristics of Primary key constraint :-*
+   
+     1. 
 
 
 
