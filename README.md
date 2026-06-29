@@ -349,9 +349,38 @@
  ### 4. PRIMARY KEY Constraint :
 
  * It is used to uniquely identify records from the table.
+   
  * *Characteristics of Primary key constraint :-*
    
-     1. 
+     1. Primary key is used to represent the table among the scheme.
+     2. A Primary key must be a combination of unique and not null.
+     3. As per the database standards we can have only one primmary key.
+     4. it is not mandatory to have prrimary key for a table but design wise preferrable.
+  
+ ### 5. FOREIGN KEY Constraint : 
+
+* It is used to establish the connection between multiple tables.
+  
+* *Characteristics :-*
+
+  1. A primary key of a table can eligible to become foreign key in another table.
+  2. Foreign key can accept duplicate values and also null values but it is not mandatory.
+  3. A table can have multiple foreign keys.
+  4. A foreign key is present in child table but always belongs to parent table.
+  5. A foreign key is also known as ***'Referential Integrity constraint'***.
+  6. Foreign key is not mandatory for a table but design wise preferable.
+
+ ### 6. DEFAULT Constraint. :
+
+ * To assign the default values for a column, we use default constraint.
+ * *Ex :*
+      DEFAULT "VALUE";
+
+### 6. Auto-Increment :
+
+ * It is used to generate unique values automatically.
+ * By default auto-increment is 1, but it can be changed.
+ * We can assign auto-increment only for primary key constraint.
 
 
 
