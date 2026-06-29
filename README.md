@@ -376,7 +376,7 @@
  * *Ex :*
       DEFAULT "VALUE";
 
-### 6. Auto-Increment :
+### 7. Auto-Increment :
 
  * It is used to generate unique values automatically.
  * By default auto-increment is 1, but it can be changed.
