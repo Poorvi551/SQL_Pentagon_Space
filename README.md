@@ -338,12 +338,13 @@
 ### 3. CHECK Constraint :
 
 * It is used to give additional condition or user defined condition for a column.
-* Syntax :
+* *Syntax :*   
 
-     CHECK(CONDITION)
+      CHECK(CONDITION)
 
-  * Ex :
-         CHECK(LENGTH(CONTACT)=10)
+  * *Ex :*
+
+        CHECK(LENGTH(CONTACT)=10)
 
  ### 4. PRIMARY KEY Constraint :
 
