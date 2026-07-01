@@ -417,8 +417,51 @@
     
 ###  MySql Installation
 
+* Go to -> google search -> mysql click on 1st link-> choose 2nd option with 565.9M and click on -> no thanks start download.
+* After dowload ->setup type - full - > execute -> set password and remember it -> execute-> finish.
 
- 
+## Data Definition Language(DDL)
+
+1. CREATE :
+
+* It is used to create database and its objects like tables,view,triggers and procedure etc.
+* Syntax :-
+
+      CREATE  DATABASE database_nmae;
+
+* Ex :-
+
+       CREATE  DATABASE PENTAGON;
+* To display databases present in a server :
+
+      > show databases;
+  
+* To use particular database present in a server : 
+
+      > use database_name;
+  
+* Ex : 
+
+      > use pentagon;
+
+* To create a table :-
+* Syntax:
+
+  create table table_name;
+  (
+  column_name1 datatype signed/unsigned not null/null,
+  column_name2 datatype signed/unsigned not null/null,
+  .
+  .
+  .
+  column_namen datatype signed/unsigned not null/null,
+  constraint constraint_ref_name unique(column_name),
+  constraint constraint_ref_name check(condition),
+  constraint constraint_ref_name primary key(column_name),
+  constraint constraint_ref_name foreign key(column_name),
+  references parent_table_name(column_name)
+  );
+  
 
 
 
