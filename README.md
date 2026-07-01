@@ -370,17 +370,55 @@
   5. A foreign key is also known as ***'Referential Integrity constraint'***.
   6. Foreign key is not mandatory for a table but design wise preferable.
 
- ### 6. DEFAULT Constraint. :
+ ### 6. DEFAULT Constraint :
 
  * To assign the default values for a column, we use default constraint.
  * *Ex :*
       DEFAULT "VALUE";
 
-### 7. Auto-Increment :
+### 7. Auto-Increment Constraint:
 
  * It is used to generate unique values automatically.
  * By default auto-increment is 1, but it can be changed.
  * We can assign auto-increment only for primary key constraint.
+
+### 8. Enum :
+
+* It is used to assign a specified set of values for a given column.
+
+## SQL Statements :
+
+1. Data Definition Language[DDL] :
+     1. CREATE
+     2. ALTER
+     3. RENAME
+     4. TRUNCATE
+     5. DROP
+        
+2. Data Manipulation Language [DML] :
+     1. INSERT
+     2. UPDATE
+     3. DELETE
+        
+3. Data Control Language [DCL] :
+     1. GRANT
+     2. REVOKE
+
+ 4. Transaction Control Language[TCL] :
+      1. COMMIT
+      2. ROLLBACK
+      3. SAVEPOINT
+
+  5. Data Query Language [DQL] :
+     1. SELECT
+     2. PROJECTION
+     3. SELECTION
+     4. JOINS
+    
+###  MySql Installation
+
+
+ 
 
 
 
