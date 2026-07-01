@@ -447,21 +447,41 @@
 * To create a table :-
 * Syntax:
 
-  create table table_name;
-  (
-  column_name1 datatype signed/unsigned not null/null,
-  column_name2 datatype signed/unsigned not null/null,
-  .
-  .
-  .
-  column_namen datatype signed/unsigned not null/null,
-  constraint constraint_ref_name unique(column_name),
-  constraint constraint_ref_name check(condition),
-  constraint constraint_ref_name primary key(column_name),
-  constraint constraint_ref_name foreign key(column_name),
-  references parent_table_name(column_name)
-  );
-  
+      create table table_name;
+      (
+      column_name1 datatype signed/unsigned not null/null,
+      column_name2 datatype signed/unsigned not null/null,
+      .
+      .
+      .
+      column_namen datatype signed/unsigned not null/null,
+      constraint constraint_ref_name unique(column_name),
+      constraint constraint_ref_name check(condition),
+      constraint constraint_ref_name primary key(column_name),
+      constraint constraint_ref_name foreign key(column_name),
+      references parent_table_name(column_name)
+      );
+
+ * Ex :
+
+       create table customer
+       (
+       cid int signed not null,
+       cname varchar(50) not null,
+       phone int unsigned null,
+       constraint cid_pk primary key(cid),
+       constraint ch_pk check(Length(phone)=10)
+       );
+   
+* To display structure of table :
+
+       desc customer;
+   
+
+   <img width="1907" height="1046" alt="Screenshot 2026-06-29 192328" src="https://github.com/user-attachments/assets/c7897204-5403-4f84-adf6-d8b83f53787b" />
+
+   
+
 
 
 
